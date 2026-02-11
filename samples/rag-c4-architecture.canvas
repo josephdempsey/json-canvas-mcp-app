@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 300,
+      "y": -80,
+      "width": 600,
+      "height": 60,
+      "text": "**C4 Model - RAG System Architecture**\n\nMulti-layer system showing context, containers, and storage interactions",
+      "color": "5"
+    },
+    {
+      "id": "group_context",
+      "type": "group",
+      "x": -100,
+      "y": 0,
+      "width": 1400,
+      "height": 200,
+      "label": "System Context Level",
+      "color": "5"
+    },
+    {
+      "id": "user",
+      "type": "text",
+      "x": 50,
+      "y": 30,
+      "width": 120,
+      "height": 60,
+      "text": "👤 **User**\n\nEnd User",
+      "color": "1"
+    },
+    {
+      "id": "rag_system",
+      "type": "text",
+      "x": 450,
+      "y": 30,
+      "width": 160,
+      "height": 60,
+      "text": "📊 **RAG System**\n\nCore Engine",
+      "color": "2"
+    },
+    {
+      "id": "llm_service",
+      "type": "text",
+      "x": 850,
+      "y": 30,
+      "width": 120,
+      "height": 60,
+      "text": "🧠 **LLM API**\n\nGeneration",
+      "color": "3"
+    },
+    {
+      "id": "knowledge_base",
+      "type": "text",
+      "x": 450,
+      "y": 110,
+      "width": 160,
+      "height": 60,
+      "text": "📚 **Knowledge Base**\n\nDocuments",
+      "color": "4"
+    },
+    {
+      "id": "edge1",
+      "type": "edge",
+      "fromNode": "user",
+      "fromSide": "right",
+      "toNode": "rag_system",
+      "toSide": "left",
+      "label": "Queries",
+      "color": "1"
+    },
+    {
+      "id": "edge2",
+      "type": "edge",
+      "fromNode": "rag_system",
+      "fromSide": "right",
+      "toNode": "llm_service",
+      "toSide": "left",
+      "label": "Augmented Prompt",
+      "color": "2"
+    },
+    {
+      "id": "edge3",
+      "type": "edge",
+      "fromNode": "knowledge_base",
+      "fromSide": "top",
+      "toNode": "rag_system",
+      "toSide": "bottom",
+      "label": "Retrieval",
+      "color": "4"
+    },
+    {
+      "id": "group_ingestion",
+      "type": "group",
+      "x": 0,
+      "y": 250,
+      "width": 280,
+      "height": 280,
+      "label": "Ingestion Pipeline",
+      "color": "2"
+    },
+    {
+      "id": "doc_preprocessor",
+      "type": "text",
+      "x": 15,
+      "y": 280,
+      "width": 120,
+      "height": 50,
+      "text": "**Preprocessor**\n\nSplit & Clean",
+      "color": "6"
+    },
+    {
+      "id": "embedding_engine",
+      "type": "text",
+      "x": 150,
+      "y": 280,
+      "width": 110,
+      "height": 50,
+      "text": "**Embedding**\n\nVectorize",
+      "color": "6"
+    },
+    {
+      "id": "vector_indexer",
+      "type": "text",
+      "x": 15,
+      "y": 360,
+      "width": 120,
+      "height": 50,
+      "text": "**Indexer**\n\nStore",
+      "color": "6"
+    },
+    {
+      "id": "metadata_store",
+      "type": "text",
+      "x": 150,
+      "y": 360,
+      "width": 110,
+      "height": 50,
+      "text": "**Metadata**\n\nTrack",
+      "color": "6"
+    },
+    {
+      "id": "e_prep_embed",
+      "type": "edge",
+      "fromNode": "doc_preprocessor",
+      "toNode": "embedding_engine"
+    },
+    {
+      "id": "e_embed_index",
+      "type": "edge",
+      "fromNode": "embedding_engine",
+      "toNode": "vector_indexer"
+    },
+    {
+      "id": "e_embed_meta",
+      "type": "edge",
+      "fromNode": "embedding_engine",
+      "toNode": "metadata_store"
+    },
+    {
+      "id": "group_retrieval",
+      "type": "group",
+      "x": 330,
+      "y": 250,
+      "width": 280,
+      "height": 280,
+      "label": "Retrieval Pipeline",
+      "color": "5"
+    },
+    {
+      "id": "query_encoder",
+      "type": "text",
+      "x": 345,
+      "y": 280,
+      "width": 120,
+      "height": 50,
+      "text": "**Query Encoder**\n\nEmbedding",
+      "color": "6"
+    },
+    {
+      "id": "semantic_search",
+      "type": "text",
+      "x": 480,
+      "y": 280,
+      "width": 110,
+      "height": 50,
+      "text": "**Search**\n\nSimilarity",
+      "color": "6"
+    },
+    {
+      "id": "reranker",
+      "type": "text",
+      "x": 345,
+      "y": 360,
+      "width": 120,
+      "height": 50,
+      "text": "**Reranker**\n\nRank",
+      "color": "6"
+    },
+    {
+      "id": "context_window",
+      "type": "text",
+      "x": 480,
+      "y": 360,
+      "width": 110,
+      "height": 50,
+      "text": "**Context**\n\nWindow",
+      "color": "6"
+    },
+    {
+      "id": "e_query_encode",
+      "type": "edge",
+      "fromNode": "query_encoder",
+      "toNode": "semantic_search"
+    },
+    {
+      "id": "e_search_rerank",
+      "type": "edge",
+      "fromNode": "semantic_search",
+      "toNode": "reranker"
+    },
+    {
+      "id": "e_rerank_context",
+      "type": "edge",
+      "fromNode": "reranker",
+      "toNode": "context_window"
+    },
+    {
+      "id": "group_generation",
+      "type": "group",
+      "x": 660,
+      "y": 250,
+      "width": 280,
+      "height": 280,
+      "label": "Generation Pipeline",
+      "color": "3"
+    },
+    {
+      "id": "prompt_builder",
+      "type": "text",
+      "x": 675,
+      "y": 280,
+      "width": 120,
+      "height": 50,
+      "text": "**Prompt**\n\nCompose",
+      "color": "6"
+    },
+    {
+      "id": "llm_invoker",
+      "type": "text",
+      "x": 810,
+      "y": 280,
+      "width": 110,
+      "height": 50,
+      "text": "**LLM Call**\n\nInvoke",
+      "color": "6"
+    },
+    {
+      "id": "response_parser",
+      "type": "text",
+      "x": 675,
+      "y": 360,
+      "width": 120,
+      "height": 50,
+      "text": "**Parser**\n\nFormat",
+      "color": "6"
+    },
+    {
+      "id": "response_cache",
+      "type": "text",
+      "x": 810,
+      "y": 360,
+      "width": 110,
+      "height": 50,
+      "text": "**Cache**\n\nMemoize",
+      "color": "6"
+    },
+    {
+      "id": "e_prompt_llm",
+      "type": "edge",
+      "fromNode": "prompt_builder",
+      "toNode": "llm_invoker"
+    },
+    {
+      "id": "e_llm_parser",
+      "type": "edge",
+      "fromNode": "llm_invoker",
+      "toNode": "response_parser"
+    },
+    {
+      "id": "e_parser_cache",
+      "type": "edge",
+      "fromNode": "response_parser",
+      "toNode": "response_cache"
+    },
+    {
+      "id": "group_storage",
+      "type": "group",
+      "x": 990,
+      "y": 250,
+      "width": 280,
+      "height": 280,
+      "label": "Storage Layer",
+      "color": "1"
+    },
+    {
+      "id": "vector_db",
+      "type": "text",
+      "x": 1010,
+      "y": 280,
+      "width": 120,
+      "height": 50,
+      "text": "**Vector DB**\n\nChroma/Pinecone",
+      "color": "6"
+    },
+    {
+      "id": "document_db",
+      "type": "text",
+      "x": 1010,
+      "y": 360,
+      "width": 120,
+      "height": 50,
+      "text": "**Document DB**\n\nPostgres",
+      "color": "6"
+    },
+    {
+      "id": "e_index_vectordb",
+      "type": "edge",
+      "fromNode": "vector_indexer",
+      "toNode": "vector_db"
+    },
+    {
+      "id": "e_meta_docdb",
+      "type": "edge",
+      "fromNode": "metadata_store",
+      "toNode": "document_db"
+    },
+    {
+      "id": "e_vectordb_search",
+      "type": "edge",
+      "fromNode": "vector_db",
+      "toNode": "semantic_search"
+    },
+    {
+      "id": "e_context_prompt",
+      "type": "edge",
+      "fromNode": "context_window",
+      "toNode": "prompt_builder"
+    }
+  ],
+  "edges": []
+}

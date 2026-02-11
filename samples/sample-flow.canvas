@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "text",
+      "text": "Start",
+      "x": 0,
+      "y": 0,
+      "width": 150,
+      "height": 60
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "text": "Validate Input",
+      "x": 250,
+      "y": 0,
+      "width": 150,
+      "height": 60
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "text": "Process Data",
+      "x": 500,
+      "y": 0,
+      "width": 150,
+      "height": 60
+    },
+    {
+      "id": "4",
+      "type": "text",
+      "text": "Generate Report",
+      "x": 750,
+      "y": 0,
+      "width": 150,
+      "height": 60
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "text": "End",
+      "x": 1000,
+      "y": 0,
+      "width": 150,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge1",
+      "fromNode": "1",
+      "toNode": "2"
+    },
+    {
+      "id": "edge2",
+      "fromNode": "2",
+      "toNode": "3"
+    },
+    {
+      "id": "edge3",
+      "fromNode": "3",
+      "toNode": "4"
+    },
+    {
+      "id": "edge4",
+      "fromNode": "4",
+      "toNode": "5"
+    }
+  ]
+}

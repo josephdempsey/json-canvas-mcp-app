@@ -1,0 +1,24 @@
+{
+  "name": "json-canvas-mcp-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "serve": "tsx server.ts",
+    "serve:http": "tsx server-http.ts",
+    "dev:ui": "vite"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^0.4.0",
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "json-canvas-viewer": "^3.4.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
