@@ -1,0 +1,448 @@
+{
+  "nodes": [
+    {
+      "id": "start_decision",
+      "type": "text",
+      "x": 400,
+      "y": 0,
+      "width": 200,
+      "height": 120,
+      "text": "Signup Method",
+      "color": "6"
+    },
+    {
+      "id": "google_path",
+      "type": "text",
+      "x": 0,
+      "y": 200,
+      "width": 200,
+      "height": 100,
+      "text": "Google Sign In",
+      "color": "5"
+    },
+    {
+      "id": "apple_path",
+      "type": "text",
+      "x": 250,
+      "y": 200,
+      "width": 200,
+      "height": 100,
+      "text": "Apple Sign In",
+      "color": "5"
+    },
+    {
+      "id": "email_path",
+      "type": "text",
+      "x": 500,
+      "y": 200,
+      "width": 200,
+      "height": 100,
+      "text": "Email Signup",
+      "color": "5"
+    },
+    {
+      "id": "email_input",
+      "type": "text",
+      "x": 500,
+      "y": 350,
+      "width": 200,
+      "height": 80,
+      "text": "Enter Email Address",
+      "color": "3"
+    },
+    {
+      "id": "password_requirements",
+      "type": "text",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 100,
+      "text": "Password Requirements\n(Min 8 chars, 1 number)",
+      "color": "2"
+    },
+    {
+      "id": "create_password",
+      "type": "text",
+      "x": 500,
+      "y": 630,
+      "width": 200,
+      "height": 80,
+      "text": "Create Password",
+      "color": "4"
+    },
+    {
+      "id": "password_valid_decision",
+      "type": "text",
+      "x": 550,
+      "y": 760,
+      "width": 100,
+      "height": 100,
+      "text": "Valid?",
+      "color": "6"
+    },
+    {
+      "id": "error_msg",
+      "type": "text",
+      "x": 750,
+      "y": 760,
+      "width": 180,
+      "height": 80,
+      "text": "Show Error Message",
+      "color": "2"
+    },
+    {
+      "id": "profile_info",
+      "type": "text",
+      "x": 500,
+      "y": 900,
+      "width": 200,
+      "height": 80,
+      "text": "Enter Profile Info\n(Name, Phone)",
+      "color": "3"
+    },
+    {
+      "id": "select_preferences",
+      "type": "text",
+      "x": 500,
+      "y": 1030,
+      "width": 200,
+      "height": 80,
+      "text": "Select Preferences\n(Offers, Deals)",
+      "color": "3"
+    },
+    {
+      "id": "email_verification",
+      "type": "text",
+      "x": 500,
+      "y": 1160,
+      "width": 200,
+      "height": 100,
+      "text": "Verify Email\n(Send Code)",
+      "color": "3"
+    },
+    {
+      "id": "email_verified_decision",
+      "type": "text",
+      "x": 550,
+      "y": 1320,
+      "width": 100,
+      "height": 100,
+      "text": "Verified?",
+      "color": "6"
+    },
+    {
+      "id": "resend_code",
+      "type": "text",
+      "x": 750,
+      "y": 1320,
+      "width": 180,
+      "height": 80,
+      "text": "Resend Verification",
+      "color": "4"
+    },
+    {
+      "id": "account_created",
+      "type": "text",
+      "x": 500,
+      "y": 1480,
+      "width": 200,
+      "height": 100,
+      "text": "Account Created\n✅ Welcome Bonus",
+      "color": "4"
+    },
+    {
+      "id": "oauth_account",
+      "type": "text",
+      "x": 125,
+      "y": 350,
+      "width": 200,
+      "height": 100,
+      "text": "OAuth Account Linked",
+      "color": "5"
+    },
+    {
+      "id": "oauth_to_profile",
+      "type": "text",
+      "x": 125,
+      "y": 500,
+      "width": 200,
+      "height": 80,
+      "text": "Auto-fill Profile",
+      "color": "3"
+    },
+    {
+      "id": "apple_oauth_account",
+      "type": "text",
+      "x": 375,
+      "y": 350,
+      "width": 200,
+      "height": 100,
+      "text": "OAuth Account Linked",
+      "color": "5"
+    },
+    {
+      "id": "apple_to_profile",
+      "type": "text",
+      "x": 375,
+      "y": 500,
+      "width": 200,
+      "height": 80,
+      "text": "Auto-fill Profile",
+      "color": "3"
+    },
+    {
+      "id": "all_paths_preferences",
+      "type": "text",
+      "x": 200,
+      "y": 650,
+      "width": 200,
+      "height": 80,
+      "text": "Select Preferences",
+      "color": "3"
+    },
+    {
+      "id": "all_paths_welcome",
+      "type": "text",
+      "x": 200,
+      "y": 800,
+      "width": 200,
+      "height": 100,
+      "text": "Account Created\n✅ Welcome Bonus",
+      "color": "4"
+    },
+    {
+      "id": "swimlane_oauth",
+      "type": "group",
+      "x": -50,
+      "y": 150,
+      "width": 450,
+      "height": 800,
+      "label": "OAuth Paths (Google/Apple)"
+    },
+    {
+      "id": "swimlane_email",
+      "type": "group",
+      "x": 450,
+      "y": 150,
+      "width": 350,
+      "height": 1400,
+      "label": "Email Path"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_start_to_google",
+      "fromNode": "start_decision",
+      "fromSide": "bottom",
+      "toNode": "google_path",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Google",
+      "color": "2"
+    },
+    {
+      "id": "edge_start_to_apple",
+      "fromNode": "start_decision",
+      "fromSide": "bottom",
+      "toNode": "apple_path",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Apple",
+      "color": "2"
+    },
+    {
+      "id": "edge_start_to_email",
+      "fromNode": "start_decision",
+      "fromSide": "bottom",
+      "toNode": "email_path",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Email",
+      "color": "1"
+    },
+    {
+      "id": "edge_google_to_oauth",
+      "fromNode": "google_path",
+      "fromSide": "bottom",
+      "toNode": "oauth_account",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_apple_to_oauth",
+      "fromNode": "apple_path",
+      "fromSide": "bottom",
+      "toNode": "apple_oauth_account",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_google_oauth_to_profile",
+      "fromNode": "oauth_account",
+      "fromSide": "bottom",
+      "toNode": "oauth_to_profile",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_apple_oauth_to_profile",
+      "fromNode": "apple_oauth_account",
+      "fromSide": "bottom",
+      "toNode": "apple_to_profile",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_oauth_to_profile1",
+      "fromNode": "oauth_to_profile",
+      "fromSide": "bottom",
+      "toNode": "all_paths_preferences",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_apple_to_profile1",
+      "fromNode": "apple_to_profile",
+      "fromSide": "bottom",
+      "toNode": "all_paths_preferences",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_prefs_to_welcome1",
+      "fromNode": "all_paths_preferences",
+      "fromSide": "bottom",
+      "toNode": "all_paths_welcome",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_email_to_input",
+      "fromNode": "email_path",
+      "fromSide": "bottom",
+      "toNode": "email_input",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "edge_input_to_requirements",
+      "fromNode": "email_input",
+      "fromSide": "bottom",
+      "toNode": "password_requirements",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "edge_requirements_to_create",
+      "fromNode": "password_requirements",
+      "fromSide": "bottom",
+      "toNode": "create_password",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "edge_create_to_decision",
+      "fromNode": "create_password",
+      "fromSide": "bottom",
+      "toNode": "password_valid_decision",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "edge_decision_no",
+      "fromNode": "password_valid_decision",
+      "fromSide": "right",
+      "toNode": "error_msg",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "No",
+      "color": "1"
+    },
+    {
+      "id": "edge_error_back",
+      "fromNode": "error_msg",
+      "fromSide": "top",
+      "toNode": "create_password",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "edge_decision_yes",
+      "fromNode": "password_valid_decision",
+      "fromSide": "bottom",
+      "toNode": "profile_info",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Yes",
+      "color": "4"
+    },
+    {
+      "id": "edge_profile_to_preferences",
+      "fromNode": "profile_info",
+      "fromSide": "bottom",
+      "toNode": "select_preferences",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4"
+    },
+    {
+      "id": "edge_prefs_to_verify",
+      "fromNode": "select_preferences",
+      "fromSide": "bottom",
+      "toNode": "email_verification",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4"
+    },
+    {
+      "id": "edge_verify_to_decision",
+      "fromNode": "email_verification",
+      "fromSide": "bottom",
+      "toNode": "email_verified_decision",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4"
+    },
+    {
+      "id": "edge_verified_no",
+      "fromNode": "email_verified_decision",
+      "fromSide": "right",
+      "toNode": "resend_code",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "No",
+      "color": "1"
+    },
+    {
+      "id": "edge_resend_back",
+      "fromNode": "resend_code",
+      "fromSide": "top",
+      "toNode": "email_verification",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "edge_verified_yes",
+      "fromNode": "email_verified_decision",
+      "fromSide": "bottom",
+      "toNode": "account_created",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Yes",
+      "color": "4"
+    }
+  ]
+}
