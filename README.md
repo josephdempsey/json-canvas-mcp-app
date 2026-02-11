@@ -29,6 +29,10 @@ Example: product user story map / customer journey flow.
 
 ![MCP app rendering product user story map flow](docs/images/product-user-story-map-flow.png)
 
+Example: architecture flow diagram.
+
+![MCP app rendering architecture flow diagram](docs/images/flow-diagram.png)
+
 ## How it works
 
 - The MCP server exposes `render_json_canvas`.
@@ -81,4 +85,3 @@ Inputs:
 - `canvas`: JSON object or JSON string (required)
 - `attachmentDir`: relative/absolute path for attachment nodes (optional)
 - `theme`: `light` | `dark` (optional)
-
