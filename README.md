@@ -1,6 +1,16 @@
 # JSON Canvas MCP App
 
-Architecture-first MCP App for designing software systems up front without leaving your coding harness (for example, Claude or Codex). It renders and edits JSON Canvas-style architecture or flows so planning, review, and implementation can happen in one workflow.
+Example of the app rendering `sample-flow.canvas` from the `render_json_canvas` tool:
+
+![MCP app rendering sample flow canvas](docs/images/mcp-app-in-use.png)
+
+## Product user story map flow
+
+Example of the app rendering a product user journey / story map flow canvas:
+
+![MCP app rendering product user story map flow](docs/images/product-user-story-map-flow.png)
+
+Architecture-first MCP App for designing software systems up front without leaving your chat interface (for example, claude or chatgpt). It renders and edits JSON Canvas-style architecture or flows so planning, review, and implementation can happen in one workflow.
 
 ## What this app is for
 
@@ -60,3 +70,5 @@ Inputs:
 2. Call `render_json_canvas` to review and refine in context.
 3. Convert nodes and links into implementation tasks.
 4. Execute coding work while keeping the architecture view available in the same harness.
+
+

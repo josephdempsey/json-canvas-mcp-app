@@ -1,0 +1,332 @@
+{
+  "nodes": [
+    {
+      "id": "loyalty_journey_title",
+      "type": "text",
+      "x": 300,
+      "y": -100,
+      "width": 400,
+      "height": 80,
+      "text": "# Supermarket Loyalty App\n## User Journey Map",
+      "color": "5"
+    },
+    {
+      "id": "awareness_group",
+      "type": "group",
+      "x": -100,
+      "y": 50,
+      "width": 280,
+      "height": 400,
+      "label": "AWARENESS",
+      "color": "2"
+    },
+    {
+      "id": "awareness_1",
+      "type": "text",
+      "x": -80,
+      "y": 90,
+      "width": 240,
+      "height": 100,
+      "text": "## Customer Sees Ad\n\n- In-store promotions\n- Social media posts\n- Friends recommendations"
+    },
+    {
+      "id": "awareness_2",
+      "type": "text",
+      "x": -80,
+      "y": 220,
+      "width": 240,
+      "height": 100,
+      "text": "## Visits Store\n\n- Notices loyalty program banner\n- Receives promotional flyer\n- Talks to cashier"
+    },
+    {
+      "id": "signup_group",
+      "type": "group",
+      "x": 250,
+      "y": 50,
+      "width": 280,
+      "height": 400,
+      "label": "SIGNUP",
+      "color": "3"
+    },
+    {
+      "id": "signup_1",
+      "type": "text",
+      "x": 270,
+      "y": 90,
+      "width": 240,
+      "height": 100,
+      "text": "## Downloads App\n\n- Searches on App Store\n- Reviews app ratings\n- Downloads & installs"
+    },
+    {
+      "id": "signup_2",
+      "type": "text",
+      "x": 270,
+      "y": 220,
+      "width": 240,
+      "height": 100,
+      "text": "## Creates Account\n\n- Enters email/phone\n- Creates password\n- Accepts terms"
+    },
+    {
+      "id": "first_use_group",
+      "type": "group",
+      "x": 600,
+      "y": 50,
+      "width": 280,
+      "height": 400,
+      "label": "FIRST USE",
+      "color": "4"
+    },
+    {
+      "id": "first_use_1",
+      "type": "text",
+      "x": 620,
+      "y": 90,
+      "width": 240,
+      "height": 100,
+      "text": "## Explores App Features\n\n- Views profile\n- Checks points balance\n- Reads rewards catalog"
+    },
+    {
+      "id": "first_use_2",
+      "type": "text",
+      "x": 620,
+      "y": 220,
+      "width": 240,
+      "height": 100,
+      "text": "## First Shopping Trip\n\n- Scans QR code\n- Earns first points\n- Views updated balance"
+    },
+    {
+      "id": "engagement_group",
+      "type": "group",
+      "x": 950,
+      "y": 50,
+      "width": 280,
+      "height": 400,
+      "label": "ENGAGEMENT",
+      "color": "1"
+    },
+    {
+      "id": "engagement_1",
+      "type": "text",
+      "x": 970,
+      "y": 90,
+      "width": 240,
+      "height": 100,
+      "text": "## Regular Shopping\n\n- Uses app at checkout\n- Earns points consistently\n- Receives personalized offers"
+    },
+    {
+      "id": "engagement_2",
+      "type": "text",
+      "x": 970,
+      "y": 220,
+      "width": 240,
+      "height": 100,
+      "text": "## Redeems Rewards\n\n- Checks available rewards\n- Applies discount codes\n- Gets exclusive perks"
+    },
+    {
+      "id": "retention_group",
+      "type": "group",
+      "x": 1300,
+      "y": 50,
+      "width": 280,
+      "height": 400,
+      "label": "RETENTION",
+      "color": "6"
+    },
+    {
+      "id": "retention_1",
+      "type": "text",
+      "x": 1320,
+      "y": 90,
+      "width": 240,
+      "height": 100,
+      "text": "## VIP Status\n\n- Becomes loyal member\n- Reaches tier milestones\n- Unlocks premium benefits"
+    },
+    {
+      "id": "retention_2",
+      "type": "text",
+      "x": 1320,
+      "y": 220,
+      "width": 240,
+      "height": 100,
+      "text": "## Brand Advocate\n\n- Recommends to friends\n- Shares referral codes\n- Leaves positive reviews"
+    },
+    {
+      "id": "emotions_title",
+      "type": "text",
+      "x": -100,
+      "y": 500,
+      "width": 150,
+      "height": 60,
+      "text": "## Emotions"
+    },
+    {
+      "id": "emotion_curious",
+      "type": "text",
+      "x": -100,
+      "y": 580,
+      "width": 140,
+      "height": 50,
+      "text": "😊 Curious",
+      "color": "2"
+    },
+    {
+      "id": "emotion_excited",
+      "type": "text",
+      "x": 80,
+      "y": 580,
+      "width": 140,
+      "height": 50,
+      "text": "😄 Excited",
+      "color": "3"
+    },
+    {
+      "id": "emotion_satisfied",
+      "type": "text",
+      "x": 260,
+      "y": 580,
+      "width": 140,
+      "height": 50,
+      "text": "😊 Satisfied",
+      "color": "4"
+    },
+    {
+      "id": "emotion_happy",
+      "type": "text",
+      "x": 440,
+      "y": 580,
+      "width": 140,
+      "height": 50,
+      "text": "😍 Happy",
+      "color": "1"
+    },
+    {
+      "id": "emotion_loyal",
+      "type": "text",
+      "x": 620,
+      "y": 580,
+      "width": 140,
+      "height": 50,
+      "text": "🤩 Loyal",
+      "color": "6"
+    },
+    {
+      "id": "painpoints_title",
+      "type": "text",
+      "x": -100,
+      "y": 670,
+      "width": 150,
+      "height": 60,
+      "text": "## Pain Points"
+    },
+    {
+      "id": "pain_awareness",
+      "type": "text",
+      "x": -100,
+      "y": 750,
+      "width": 280,
+      "height": 80,
+      "text": "❌ Limited program visibility\n❌ Unclear benefits explanation\n❌ Complex promotional terms"
+    },
+    {
+      "id": "pain_signup",
+      "type": "text",
+      "x": 250,
+      "y": 750,
+      "width": 280,
+      "height": 80,
+      "text": "❌ Account creation friction\n❌ Security concerns\n❌ Too many data requests"
+    },
+    {
+      "id": "pain_usage",
+      "type": "text",
+      "x": 600,
+      "y": 750,
+      "width": 280,
+      "height": 80,
+      "text": "❌ App navigation complexity\n❌ Slow point accumulation\n❌ Limited relevant offers"
+    },
+    {
+      "id": "opportunities_title",
+      "type": "text",
+      "x": 950,
+      "y": 670,
+      "width": 150,
+      "height": 60,
+      "text": "## Opportunities"
+    },
+    {
+      "id": "opp_onboarding",
+      "type": "text",
+      "x": 950,
+      "y": 750,
+      "width": 280,
+      "height": 80,
+      "text": "✅ Simplified onboarding\n✅ Better in-app tutorials\n✅ Mobile wallet integration"
+    },
+    {
+      "id": "opp_personalization",
+      "type": "text",
+      "x": 1300,
+      "y": 750,
+      "width": 280,
+      "height": 80,
+      "text": "✅ AI-powered recommendations\n✅ Personalized offers\n✅ Smart notifications"
+    },
+    {
+      "id": "touchpoints_title",
+      "type": "text",
+      "x": -100,
+      "y": 880,
+      "width": 150,
+      "height": 60,
+      "text": "## Touchpoints"
+    },
+    {
+      "id": "touchpoint_channels",
+      "type": "text",
+      "x": -100,
+      "y": 960,
+      "width": 800,
+      "height": 100,
+      "text": "📱 Mobile App  |  🏪 In-Store  |  📧 Email  |  📲 SMS  |  🌐 Website  |  🛍️ Checkout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_awareness_to_signup",
+      "fromNode": "awareness_2",
+      "fromSide": "right",
+      "toNode": "signup_1",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Customer interested"
+    },
+    {
+      "id": "edge_signup_to_firstuse",
+      "fromNode": "signup_2",
+      "fromSide": "right",
+      "toNode": "first_use_1",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Account created"
+    },
+    {
+      "id": "edge_firstuse_to_engagement",
+      "fromNode": "first_use_2",
+      "fromSide": "right",
+      "toNode": "engagement_1",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Regular usage"
+    },
+    {
+      "id": "edge_engagement_to_retention",
+      "fromNode": "engagement_2",
+      "fromSide": "right",
+      "toNode": "retention_1",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Loyal member"
+    }
+  ]
+}

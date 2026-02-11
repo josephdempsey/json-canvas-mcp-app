@@ -1,0 +1,445 @@
+{
+  "nodes": [
+    {
+      "id": "persona_section",
+      "type": "group",
+      "x": -150,
+      "y": -50,
+      "width": 300,
+      "height": 350,
+      "label": "SAMPLE PERSONA",
+      "color": "5"
+    },
+    {
+      "id": "persona_name",
+      "type": "text",
+      "x": -130,
+      "y": 10,
+      "width": 260,
+      "height": 60,
+      "text": "## Sarah Chen\n**Busy Professional & Parent**"
+    },
+    {
+      "id": "persona_details",
+      "type": "text",
+      "x": -130,
+      "y": 85,
+      "width": 260,
+      "height": 200,
+      "text": "**Age:** 35-45\n**Income:** $70k-100k\n**Goals:**\n- Save money on groceries\n- Earn rewards/discounts\n- Convenient shopping\n\n**Pain Points:**\n- Limited time\n- Budget conscious\n- Overwhelmed by options"
+    },
+    {
+      "id": "stage1_awareness",
+      "type": "group",
+      "x": 200,
+      "y": -50,
+      "width": 320,
+      "height": 350,
+      "label": "1. AWARENESS",
+      "color": "2"
+    },
+    {
+      "id": "stage1_title",
+      "type": "text",
+      "x": 220,
+      "y": 10,
+      "width": 280,
+      "height": 40,
+      "text": "**Discovering the Program**"
+    },
+    {
+      "id": "stage1_steps",
+      "type": "text",
+      "x": 220,
+      "y": 60,
+      "width": 280,
+      "height": 210,
+      "text": "• See social media ads\n• Notice in-store signage\n• Receive flyer at checkout\n• Hear from friends\n• Read online reviews\n• Watch promotional video"
+    },
+    {
+      "id": "stage2_consideration",
+      "type": "group",
+      "x": 570,
+      "y": -50,
+      "width": 320,
+      "height": 350,
+      "label": "2. CONSIDERATION",
+      "color": "3"
+    },
+    {
+      "id": "stage2_title",
+      "type": "text",
+      "x": 590,
+      "y": 10,
+      "width": 280,
+      "height": 40,
+      "text": "**Learning & Evaluating**"
+    },
+    {
+      "id": "stage2_steps",
+      "type": "text",
+      "x": 590,
+      "y": 60,
+      "width": 280,
+      "height": 210,
+      "text": "• Research benefits online\n• Download the app\n• Read terms & conditions\n• Compare with competitors\n• Check reviews on App Store\n• Browse rewards catalog"
+    },
+    {
+      "id": "stage3_convert",
+      "type": "group",
+      "x": 940,
+      "y": -50,
+      "width": 320,
+      "height": 350,
+      "label": "3. CONVERT",
+      "color": "4"
+    },
+    {
+      "id": "stage3_title",
+      "type": "text",
+      "x": 960,
+      "y": 10,
+      "width": 280,
+      "height": 40,
+      "text": "**Joining & First Purchase**"
+    },
+    {
+      "id": "stage3_steps",
+      "type": "text",
+      "x": 960,
+      "y": 60,
+      "width": 280,
+      "height": 210,
+      "text": "• Create account\n• Enter email/phone\n• Set password\n• First shopping trip\n• Scan loyalty card/QR\n• Earn first points"
+    },
+    {
+      "id": "stage4_loyalty",
+      "type": "group",
+      "x": 1310,
+      "y": -50,
+      "width": 320,
+      "height": 350,
+      "label": "4. LOYALTY",
+      "color": "1"
+    },
+    {
+      "id": "stage4_title",
+      "type": "text",
+      "x": 1330,
+      "y": 10,
+      "width": 280,
+      "height": 40,
+      "text": "**Ongoing Engagement**"
+    },
+    {
+      "id": "stage4_steps",
+      "type": "text",
+      "x": 1330,
+      "y": 60,
+      "width": 280,
+      "height": 210,
+      "text": "• Regular shopping trips\n• Accumulate points\n• Receive personalized offers\n• Redeem rewards\n• Reach tier status\n• Unlock exclusive deals"
+    },
+    {
+      "id": "stage5_advocacy",
+      "type": "group",
+      "x": 1680,
+      "y": -50,
+      "width": 320,
+      "height": 350,
+      "label": "5. ADVOCACY",
+      "color": "6"
+    },
+    {
+      "id": "stage5_title",
+      "type": "text",
+      "x": 1700,
+      "y": 10,
+      "width": 280,
+      "height": 40,
+      "text": "**Brand Champion**"
+    },
+    {
+      "id": "stage5_steps",
+      "type": "text",
+      "x": 1700,
+      "y": 60,
+      "width": 280,
+      "height": 210,
+      "text": "• Share referral codes\n• Invite family & friends\n• Leave positive reviews\n• Share on social media\n• VIP program member\n• Recommend to network"
+    },
+    {
+      "id": "channels_title",
+      "type": "text",
+      "x": -150,
+      "y": 340,
+      "width": 100,
+      "height": 50,
+      "text": "**CHANNELS**"
+    },
+    {
+      "id": "channels_awareness",
+      "type": "text",
+      "x": 220,
+      "y": 340,
+      "width": 280,
+      "height": 50,
+      "text": "📱 Social Media\n🎥 Video\n📰 Website\n📄 Flyers",
+      "color": "2"
+    },
+    {
+      "id": "channels_consideration",
+      "type": "text",
+      "x": 590,
+      "y": 340,
+      "width": 280,
+      "height": 50,
+      "text": "💻 Website\n📧 Email\n📱 App Store\n🔗 Links",
+      "color": "3"
+    },
+    {
+      "id": "channels_convert",
+      "type": "text",
+      "x": 960,
+      "y": 340,
+      "width": 280,
+      "height": 50,
+      "text": "📱 Mobile App\n🏪 In-Store\n💳 POS System\n📞 Phone",
+      "color": "4"
+    },
+    {
+      "id": "channels_loyalty",
+      "type": "text",
+      "x": 1330,
+      "y": 340,
+      "width": 280,
+      "height": 50,
+      "text": "📱 App\n📧 Email\n🔔 Push Notifications\n🏪 In-Store",
+      "color": "1"
+    },
+    {
+      "id": "channels_advocacy",
+      "type": "text",
+      "x": 1700,
+      "y": 340,
+      "width": 280,
+      "height": 50,
+      "text": "📱 Social Media\n📧 Email\n👥 Referral Link\n🎁 Program",
+      "color": "6"
+    },
+    {
+      "id": "metrics_title",
+      "type": "text",
+      "x": -150,
+      "y": 430,
+      "width": 100,
+      "height": 50,
+      "text": "**KEY METRICS**\nWhat drives this?"
+    },
+    {
+      "id": "metrics_awareness",
+      "type": "text",
+      "x": 220,
+      "y": 430,
+      "width": 280,
+      "height": 100,
+      "text": "📊 Impressions\n📊 Clicks\n📊 Video Views\n📊 Website Traffic\n📊 App Downloads",
+      "color": "2"
+    },
+    {
+      "id": "metrics_consideration",
+      "type": "text",
+      "x": 590,
+      "y": 430,
+      "width": 280,
+      "height": 100,
+      "text": "📊 Page Views\n📊 Time on Site\n📊 Email Opens\n📊 App Reviews\n📊 Click-through Rate",
+      "color": "3"
+    },
+    {
+      "id": "metrics_convert",
+      "type": "text",
+      "x": 960,
+      "y": 430,
+      "width": 280,
+      "height": 100,
+      "text": "📊 Signups\n📊 First Purchases\n📊 Account Creation\n📊 Conversion Rate\n📊 Average Order Value",
+      "color": "4"
+    },
+    {
+      "id": "metrics_loyalty",
+      "type": "text",
+      "x": 1330,
+      "y": 430,
+      "width": 280,
+      "height": 100,
+      "text": "📊 Repeat Visits\n📊 Points Earned\n📊 Rewards Redeemed\n📊 Engagement Rate\n📊 Customer Lifetime Value",
+      "color": "1"
+    },
+    {
+      "id": "metrics_advocacy",
+      "type": "text",
+      "x": 1700,
+      "y": 430,
+      "width": 280,
+      "height": 100,
+      "text": "📊 Referrals\n📊 Social Shares\n📊 Reviews Posted\n📊 NPS Score\n📊 Referral Revenue",
+      "color": "6"
+    },
+    {
+      "id": "responses_title",
+      "type": "text",
+      "x": -150,
+      "y": 570,
+      "width": 100,
+      "height": 50,
+      "text": "**RESPONSES**\nHow we engage"
+    },
+    {
+      "id": "responses_awareness",
+      "type": "text",
+      "x": 220,
+      "y": 570,
+      "width": 280,
+      "height": 120,
+      "text": "✅ Multi-channel ads\n✅ In-store promotions\n✅ Social media content\n✅ Partner outreach\n✅ Video testimonials\n✅ Influencer campaigns"
+    },
+    {
+      "id": "responses_consideration",
+      "type": "text",
+      "x": 590,
+      "y": 570,
+      "width": 280,
+      "height": 120,
+      "text": "✅ Detailed FAQ page\n✅ Benefit comparison guide\n✅ Product demo video\n✅ Email nurture series\n✅ Free trial offer\n✅ Customer testimonials"
+    },
+    {
+      "id": "responses_convert",
+      "type": "text",
+      "x": 960,
+      "y": 570,
+      "width": 280,
+      "height": 120,
+      "text": "✅ Simplified signup\n✅ Welcome email series\n✅ First bonus points\n✅ Onboarding tutorial\n✅ Instant QR code\n✅ First purchase incentive"
+    },
+    {
+      "id": "responses_loyalty",
+      "type": "text",
+      "x": 1330,
+      "y": 570,
+      "width": 280,
+      "height": 120,
+      "text": "✅ Personalized offers\n✅ Birthday rewards\n✅ Exclusive sales\n✅ Tier promotions\n✅ App notifications\n✅ Loyalty surprises"
+    },
+    {
+      "id": "responses_advocacy",
+      "type": "text",
+      "x": 1700,
+      "y": 570,
+      "width": 280,
+      "height": 120,
+      "text": "✅ Referral program\n✅ Social sharing tools\n✅ Brand ambassador\n✅ VIP perks\n✅ Community events\n✅ Exclusive access"
+    },
+    {
+      "id": "opportunities_title",
+      "type": "text",
+      "x": -150,
+      "y": 730,
+      "width": 100,
+      "height": 50,
+      "text": "**OPPORTUNITIES**\nHow to improve"
+    },
+    {
+      "id": "opportunities_awareness",
+      "type": "text",
+      "x": 220,
+      "y": 730,
+      "width": 280,
+      "height": 120,
+      "text": "🔄 Geo-targeted ads\n🔄 Native advertising\n🔄 PR partnerships\n🔄 Sustainable messaging\n🔄 Local community tie-ins\n🔄 Podcast sponsorships"
+    },
+    {
+      "id": "opportunities_consideration",
+      "type": "text",
+      "x": 590,
+      "y": 730,
+      "width": 280,
+      "height": 120,
+      "text": "🔄 Interactive calculator\n🔄 ROI comparison tool\n🔄 Live chat support\n🔄 Webinar series\n🔄 Case study library\n🔄 Free consultation"
+    },
+    {
+      "id": "opportunities_convert",
+      "type": "text",
+      "x": 960,
+      "y": 730,
+      "width": 280,
+      "height": 120,
+      "text": "🔄 Social signup\n🔄 One-click onboarding\n🔄 Welcome bonus\n🔄 Speed optimization\n🔄 Mobile wallet integration\n🔄 Family account feature"
+    },
+    {
+      "id": "opportunities_loyalty",
+      "type": "text",
+      "x": 1330,
+      "y": 730,
+      "width": 280,
+      "height": 120,
+      "text": "🔄 AI recommendations\n🔄 Gamification features\n🔄 Tiered benefits\n🔄 Partnership rewards\n🔄 Seasonal campaigns\n🔄 Surprise & delight"
+    },
+    {
+      "id": "opportunities_advocacy",
+      "type": "text",
+      "x": 1700,
+      "y": 730,
+      "width": 280,
+      "height": 120,
+      "text": "🔄 Tiered referral rewards\n🔄 Co-marketing programs\n🔄 Ambassador dashboard\n🔄 Exclusive previews\n🔄 VIP lounge access\n🔄 Brand collaboration"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_persona_to_awareness",
+      "fromNode": "persona_section",
+      "fromSide": "right",
+      "toNode": "stage1_awareness",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "5"
+    },
+    {
+      "id": "edge_awareness_to_consideration",
+      "fromNode": "stage1_awareness",
+      "fromSide": "right",
+      "toNode": "stage2_consideration",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "edge_consideration_to_convert",
+      "fromNode": "stage2_consideration",
+      "fromSide": "right",
+      "toNode": "stage3_convert",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "edge_convert_to_loyalty",
+      "fromNode": "stage3_convert",
+      "fromSide": "right",
+      "toNode": "stage4_loyalty",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "4"
+    },
+    {
+      "id": "edge_loyalty_to_advocacy",
+      "fromNode": "stage4_loyalty",
+      "fromSide": "right",
+      "toNode": "stage5_advocacy",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "1"
+    }
+  ]
+}
