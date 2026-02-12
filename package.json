@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.ci.json",
+    "test": "node --test",
+    "ci:smoke": "node ./scripts/ci-smoke.mjs",
     "serve": "tsx server.ts",
     "serve:http": "tsx server-http.ts",
     "dev:ui": "vite"

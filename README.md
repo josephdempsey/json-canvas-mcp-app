@@ -2,6 +2,8 @@
 
 Think outside the code block.
 
+[![CI](https://github.com/josephdempsey/json-canvas-mcp-app/actions/workflows/ci.yml/badge.svg)](https://github.com/josephdempsey/json-canvas-mcp-app/actions/workflows/ci.yml)
+
 This is an open-source, Obsidian-style JSON Canvas app for MCP hosts that helps you design architecture and product flows before implementation, without leaving Claude, chatGpt or where ever supports MCP Apps.
 
 ## Why this exists
@@ -59,6 +61,19 @@ Example: architecture flow diagram.
 npm install
 npm run build
 ```
+
+## CI
+
+GitHub Actions runs on pull requests and pushes to `main` with:
+
+- `npm ci`
+- `npm run typecheck`
+- `npm run build`
+- `npm run ci:smoke` (starts HTTP transport and checks `/health`)
+
+Recommended branch protection:
+
+- Require the `CI / quality` check before merge to `main`.
 
 ## Run
 
